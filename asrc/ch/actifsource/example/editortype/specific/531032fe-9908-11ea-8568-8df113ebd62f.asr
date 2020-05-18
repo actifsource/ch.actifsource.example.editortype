@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource format="5.6.0" guid="531032fe-9908-11ea-8568-8df113ebd62f">
+  <owns predicate="53103335-9908-11ea-8568-8df113ebd62f">
+    <resource statement-guid="53103428-9908-11ea-8568-8df113ebd62f" type="resource" guid="53103301-9908-11ea-8568-8df113ebd62f" />
+    <resource statement-guid="5310340b-9908-11ea-8568-8df113ebd62f" type="resource" guid="531032ff-9908-11ea-8568-8df113ebd62f" />
+  </owns>
+  <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="53103404-9908-11ea-8568-8df113ebd62f" type="resource" guid="5310332c-9908-11ea-8568-8df113ebd62f" />
+  </predicate>
+  <predicate guid="33fc8660-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="53103405-9908-11ea-8568-8df113ebd62f" type="literal">RootInstance</object>
+  </predicate>
+  <predicate guid="53103335-9908-11ea-8568-8df113ebd62f">
+    <object statement-guid="53103428-9908-11ea-8568-8df113ebd62f">
+      <resource guid="53103301-9908-11ea-8568-8df113ebd62f">
+        <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
+          <object statement-guid="53103412-9908-11ea-8568-8df113ebd62f" type="resource" guid="53103312-9908-11ea-8568-8df113ebd62f" />
+        </predicate>
+        <predicate guid="33fc8660-f91f-11d9-bb45-5fabdff7c7da">
+          <object statement-guid="53103413-9908-11ea-8568-8df113ebd62f" type="literal">Composition_1</object>
+        </predicate>
+        <predicate guid="80ff75d8-e648-11da-90a0-f358fdc0051b">
+          <object statement-guid="53103414-9908-11ea-8568-8df113ebd62f" type="literal">Hello World Hello World Hello World Hello World Hello World 
+Hello World Hello World Hello World Hello World Hello World
+Hello World  Hello World Hello World</object>
+        </predicate>
+        <predicate guid="53103313-9908-11ea-8568-8df113ebd62f">
+          <object statement-guid="53103415-9908-11ea-8568-8df113ebd62f" type="literal">true</object>
+        </predicate>
+        <predicate guid="53103314-9908-11ea-8568-8df113ebd62f">
+          <object statement-guid="53103418-9908-11ea-8568-8df113ebd62f" type="literal">true</object>
+          <object statement-guid="53103419-9908-11ea-8568-8df113ebd62f" type="literal">false</object>
+        </predicate>
+        <predicate guid="53103315-9908-11ea-8568-8df113ebd62f">
+          <object statement-guid="5310341f-9908-11ea-8568-8df113ebd62f" type="literal">true</object>
+          <object statement-guid="53103420-9908-11ea-8568-8df113ebd62f" type="literal">false</object>
+        </predicate>
+        <predicate guid="53103316-9908-11ea-8568-8df113ebd62f">
+          <object statement-guid="53103423-9908-11ea-8568-8df113ebd62f" type="literal">false</object>
+          <object statement-guid="53103424-9908-11ea-8568-8df113ebd62f" type="literal">false</object>
+        </predicate>
+        <predicate guid="53103317-9908-11ea-8568-8df113ebd62f">
+          <object statement-guid="5310341d-9908-11ea-8568-8df113ebd62f" type="resource" guid="5310333a-9908-11ea-8568-8df113ebd62f" />
+        </predicate>
+        <predicate guid="53103319-9908-11ea-8568-8df113ebd62f">
+          <object statement-guid="e6067738-9909-11ea-8568-8df113ebd62f" type="resource" guid="3d3c51cc-9909-11ea-8568-8df113ebd62f" />
+        </predicate>
+        <predicate guid="5310331a-9908-11ea-8568-8df113ebd62f">
+          <object statement-guid="53103425-9908-11ea-8568-8df113ebd62f" type="resource" guid="53103301-9908-11ea-8568-8df113ebd62f" />
+        </predicate>
+        <predicate guid="5310331b-9908-11ea-8568-8df113ebd62f">
+          <object statement-guid="5310341e-9908-11ea-8568-8df113ebd62f" type="literal">2020-5-18 15:20:38.0</object>
+        </predicate>
+        <predicate guid="5310331c-9908-11ea-8568-8df113ebd62f">
+          <object statement-guid="53103427-9908-11ea-8568-8df113ebd62f" type="literal">
+// Consolas Font Style
+if (var1 == 55) {
+   var2 = var1;
+}
+Test code...
+</object>
+        </predicate>
+        <predicate guid="53103336-9908-11ea-8568-8df113ebd62f">
+          <object statement-guid="d0e29639-9908-11ea-8568-8df113ebd62f" type="literal">README.md</object>
+        </predicate>
+      </resource>
+    </object>
+    <object statement-guid="5310340b-9908-11ea-8568-8df113ebd62f">
+      <resource guid="531032ff-9908-11ea-8568-8df113ebd62f">
+        <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
+          <object statement-guid="53103406-9908-11ea-8568-8df113ebd62f" type="resource" guid="53103312-9908-11ea-8568-8df113ebd62f" />
+        </predicate>
+        <predicate guid="33fc8660-f91f-11d9-bb45-5fabdff7c7da">
+          <object statement-guid="53103407-9908-11ea-8568-8df113ebd62f" type="literal">Composition_2</object>
+        </predicate>
+      </resource>
+    </object>
+  </predicate>
+  <predicate guid="2d5f0a30-9909-11ea-8568-8df113ebd62f">
+    <object statement-guid="3d3c51cf-9909-11ea-8568-8df113ebd62f" type="aggregate" guid="3d3c51cc-9909-11ea-8568-8df113ebd62f" />
+  </predicate>
+</resource>
+

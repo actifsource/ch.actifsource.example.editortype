@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource format="5.6.0" guid="531032d0-9908-11ea-8568-8df113ebd62f">
+  <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="5310334d-9908-11ea-8568-8df113ebd62f" type="resource" guid="d45a2b2b-3099-11ea-8c92-69fa7f5db471" />
+  </predicate>
+  <predicate guid="33fc8660-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="5310334e-9908-11ea-8568-8df113ebd62f" type="literal">RootConfig</object>
+  </predicate>
+  <predicate guid="e8032137-3099-11ea-8c92-69fa7f5db471">
+    <object statement-guid="531033aa-9908-11ea-8568-8df113ebd62f" type="aggregate" guid="531032e7-9908-11ea-8568-8df113ebd62f" />
+    <object statement-guid="53103403-9908-11ea-8568-8df113ebd62f" type="aggregate" guid="531032fd-9908-11ea-8568-8df113ebd62f" />
+  </predicate>
+</resource>
+
