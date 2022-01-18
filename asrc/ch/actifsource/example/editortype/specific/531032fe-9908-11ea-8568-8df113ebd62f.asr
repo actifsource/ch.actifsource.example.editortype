@@ -8,7 +8,7 @@
     <object statement-guid="53103404-9908-11ea-8568-8df113ebd62f" type="resource" guid="5310332c-9908-11ea-8568-8df113ebd62f" />
   </predicate>
   <predicate guid="33fc8660-f91f-11d9-bb45-5fabdff7c7da">
-    <object statement-guid="53103405-9908-11ea-8568-8df113ebd62f" type="literal">RootInstance_test</object>
+    <object statement-guid="53103405-9908-11ea-8568-8df113ebd62f" type="literal">RootInstance</object>
   </predicate>
   <predicate guid="53103335-9908-11ea-8568-8df113ebd62f">
     <object statement-guid="53103428-9908-11ea-8568-8df113ebd62f">
