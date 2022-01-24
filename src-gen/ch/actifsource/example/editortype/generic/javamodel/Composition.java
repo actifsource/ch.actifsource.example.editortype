@@ -103,6 +103,42 @@ public class Composition extends DynamicResource implements IComposition {
   }
 
   @Override
+  public java.lang.String selectTestCsvParser() {
+    return _getSingleAttribute(java.lang.String.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_testCsvParser);
+  }
+    
+  public void setTestCsvParser(java.lang.String testCsvParser) {
+     _setSingleAttribute(ch.actifsource.example.editortype.generic.GenericPackage.Composition_testCsvParser, testCsvParser);
+  }
+
+  @Override
+  public java.lang.String selectTestDefaultParser() {
+    return _getSingleAttribute(java.lang.String.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_testDefaultParser);
+  }
+    
+  public void setTestDefaultParser(java.lang.String testDefaultParser) {
+     _setSingleAttribute(ch.actifsource.example.editortype.generic.GenericPackage.Composition_testDefaultParser, testDefaultParser);
+  }
+
+  @Override
+  public java.lang.String selectTestMarkdownParser() {
+    return _getSingleAttribute(java.lang.String.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_testMarkdownParser);
+  }
+    
+  public void setTestMarkdownParser(java.lang.String testMarkdownParser) {
+     _setSingleAttribute(ch.actifsource.example.editortype.generic.GenericPackage.Composition_testMarkdownParser, testMarkdownParser);
+  }
+
+  @Override
+  public java.lang.String selectTestSyntaxHighlightingParser() {
+    return _getSingleAttribute(java.lang.String.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_testSyntaxHighlightingParser);
+  }
+    
+  public void setTestSyntaxHighlightingParser(java.lang.String testSyntaxHighlightingParser) {
+     _setSingleAttribute(ch.actifsource.example.editortype.generic.GenericPackage.Composition_testSyntaxHighlightingParser, testSyntaxHighlightingParser);
+  }
+
+  @Override
   public java.lang.String selectTextCodesnippetFontBorder() {
     return _getSingleAttribute(java.lang.String.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_textCodesnippetFontBorder);
   }
@@ -165,6 +201,10 @@ public class Composition extends DynamicResource implements IComposition {
     _acceptSingleAttribute(java.util.Date.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_dateTime, visitor);
     _acceptSingleAttribute(java.lang.String.class, ch.actifsource.core.CorePackage.NamedResource_name, visitor);
     _acceptSingleAttribute(java.lang.String.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_scopeFileSelector, visitor);
+    _acceptSingleAttribute(java.lang.String.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_testCsvParser, visitor);
+    _acceptSingleAttribute(java.lang.String.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_testDefaultParser, visitor);
+    _acceptSingleAttribute(java.lang.String.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_testMarkdownParser, visitor);
+    _acceptSingleAttribute(java.lang.String.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_testSyntaxHighlightingParser, visitor);
     _acceptSingleAttribute(java.lang.String.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_textCodesnippetFontBorder, visitor);
     // relations
     _acceptList(ch.actifsource.example.editortype.generic.javamodel.IComposition.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_associationComboBox, visitor);
@@ -186,4 +226,4 @@ public class Composition extends DynamicResource implements IComposition {
   }
   
 }
-/* Actifsource ID=[4d723cb5-db37-11de-82b8-17be2e034a3b,53103312-9908-11ea-8568-8df113ebd62f,35odq/gpNz+nvXgINAh0GKkdRAw=] */
+/* Actifsource ID=[4d723cb5-db37-11de-82b8-17be2e034a3b,53103312-9908-11ea-8568-8df113ebd62f,soUJTYPimklv7/zmwO9PRArkE+Q=] */

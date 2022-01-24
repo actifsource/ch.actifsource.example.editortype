@@ -22,6 +22,14 @@ public interface IComposition extends ch.actifsource.core.javamodel.INamedResour
   
   public java.lang.String selectScopeFileSelector();
   
+  public java.lang.String selectTestDefaultParser();
+  
+  public java.lang.String selectTestSyntaxHighlightingParser();
+  
+  public java.lang.String selectTestMarkdownParser();
+  
+  public java.lang.String selectTestCsvParser();
+  
   public java.util.List<? extends ch.actifsource.example.editortype.generic.javamodel.ITestEnum> selectEnumComboBox();
   
   public java.util.List<? extends ch.actifsource.example.editortype.generic.javamodel.IComposition> selectAssociationComboBox();
@@ -30,4 +38,4 @@ public interface IComposition extends ch.actifsource.core.javamodel.INamedResour
   
 }
 
-/* Actifsource ID=[3ca9f967-db37-11de-82b8-17be2e034a3b,53103312-9908-11ea-8568-8df113ebd62f,PV2dQ3H5Ouj9YI/3xcnc/ZrtdJs=] */
+/* Actifsource ID=[3ca9f967-db37-11de-82b8-17be2e034a3b,53103312-9908-11ea-8568-8df113ebd62f,O0m1youJvo857hkW6DMXBWvZs0E=] */

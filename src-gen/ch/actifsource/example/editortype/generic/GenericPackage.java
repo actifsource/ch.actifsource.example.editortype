@@ -22,6 +22,10 @@ public class GenericPackage {
   public static final Resource TestEnum_Enum2 = new Resource("5310333a-9908-11ea-8568-8df113ebd62f");
   public static final Resource TestEnum_Enum3 = new Resource("5310333b-9908-11ea-8568-8df113ebd62f");
   public static final Resource Root_testAggregation = new Resource("2d5f0a30-9909-11ea-8568-8df113ebd62f");
+  public static final Resource Composition_testSyntaxHighlightingParser = new Resource("031070b2-7cfa-11ec-92b0-e9391c25f75e");
+  public static final Resource Composition_testDefaultParser = new Resource("197ccc8f-7cfa-11ec-92b0-e9391c25f75e");
+  public static final Resource Composition_testMarkdownParser = new Resource("29276ad4-7cfa-11ec-92b0-e9391c25f75e");
+  public static final Resource Composition_testCsvParser = new Resource("295c0f78-7cfa-11ec-92b0-e9391c25f75e");
   
   /* Begin Protected Region [[user]] */
   
@@ -42,4 +46,4 @@ public class GenericPackage {
   }
   
 }
-/* Actifsource ID=[c1a07b92-fc09-11e0-b756-0dc1d96a76cb,ch.actifsource.example.editortype.generic,ATjWfJI+zUmk4t9OS3N8HSHLYXs=] */
+/* Actifsource ID=[c1a07b92-fc09-11e0-b756-0dc1d96a76cb,ch.actifsource.example.editortype.generic,YmvkZW08Tkt3Kf0NWxvv++Zurqs=] */

@@ -63,6 +63,80 @@ Test code...
         <predicate guid="53103336-9908-11ea-8568-8df113ebd62f">
           <object statement-guid="d0e29639-9908-11ea-8568-8df113ebd62f" type="literal">README.md</object>
         </predicate>
+        <predicate guid="031070b2-7cfa-11ec-92b0-e9391c25f75e">
+          <object statement-guid="9b2b7f76-7cfa-11ec-92b0-e9391c25f75e" type="literal">
+// Consolas Font Style
+if (var1 == 55) {
+   var2 = var1;
+}
+switch (id) {
+ case 1:   
+   break;
+
+default:
+   break;
+}
+
+Test code...</object>
+        </predicate>
+        <predicate guid="197ccc8f-7cfa-11ec-92b0-e9391c25f75e">
+          <object statement-guid="94a1e9f5-7cfa-11ec-92b0-e9391c25f75e" type="literal">Default parser</object>
+        </predicate>
+        <predicate guid="29276ad4-7cfa-11ec-92b0-e9391c25f75e">
+          <object statement-guid="c69e6476-7cfa-11ec-92b0-e9391c25f75e" type="literal"># Markdown:
+
+== Italic ==
+*Italic*
+
+== Bold ==
+**Bold**
+
+== BoldItalic ==
+***Italic***
+
+== Title ==
+# Title Size_1
+## Title Size_2
+### Title Size_3
+#### Title Size_4
+##### Title Size_5
+###### Title Size_6
+
+== Horizontal Line ==
+---
+
+== Comment ==
+&lt;!--comment1--&gt;
+
+== Image ==
+![image alt](images/smile.png)
+
+== Link ==
+[link name](54497a23-990c-11ea-8568-8df113ebd62f)
+
+== Escape Char==
+EscapeStar\*DefaultStyle**Bold**
+
+== Table ==
+|Header1|Header2|Header3|
+|:---|---|---:|
+|First Line&lt;br&gt;Second **Line**|Text12|Text12|
+|Text21|Text22|Text22|
+
+== List ==
+* Line 1
+  * SubLine 1
+  * SubLine 2
+* Line 2
+  1. SubLine 1
+  1. SubLine 2
+* Line 3</object>
+        </predicate>
+        <predicate guid="295c0f78-7cfa-11ec-92b0-e9391c25f75e">
+          <object statement-guid="ba3ef915-7cfa-11ec-92b0-e9391c25f75e" type="literal">config1,config2,config3
+config4,config5,config6
+</object>
+        </predicate>
       </resource>
     </object>
     <object statement-guid="5310340b-9908-11ea-8568-8df113ebd62f">
