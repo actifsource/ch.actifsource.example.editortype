@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource format="5.6.0" guid="f9880264-880f-11ec-b8d4-fba54fb82635">
+  <owns predicate="3d47d3fe-f91f-11d9-bb45-5fabdff7c7da">
+    <resource statement-guid="f988026b-880f-11ec-b8d4-fba54fb82635" type="resource" guid="f9880265-880f-11ec-b8d4-fba54fb82635" />
+  </owns>
+  <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="f9880266-880f-11ec-b8d4-fba54fb82635" type="resource" guid="0bbce344-ff9d-11de-a38b-f9f2ccb68552" />
+  </predicate>
+  <predicate guid="33fc8660-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="f9880267-880f-11ec-b8d4-fba54fb82635" type="literal">OwnPasswordHashBuilderAspect</object>
+  </predicate>
+  <predicate guid="3d47d3fe-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="f988026b-880f-11ec-b8d4-fba54fb82635">
+      <resource guid="f9880265-880f-11ec-b8d4-fba54fb82635">
+        <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
+          <object statement-guid="f9880268-880f-11ec-b8d4-fba54fb82635" type="resource" guid="360ec494-f91f-11d9-bb45-5fabdff7c7da" />
+        </predicate>
+        <predicate guid="3c0568eb-f91f-11d9-bb45-5fabdff7c7da">
+          <object statement-guid="f9880269-880f-11ec-b8d4-fba54fb82635" type="literal">ch.actifsource.example.editortype.aspect.OwnPasswordHashBuilderAspect</object>
+        </predicate>
+        <predicate guid="3c91f17c-f91f-11d9-bb45-5fabdff7c7da">
+          <object statement-guid="f988026a-880f-11ec-b8d4-fba54fb82635" type="resource" guid="481a601a-ff9d-11de-a38b-f9f2ccb68552" />
+        </predicate>
+      </resource>
+    </object>
+  </predicate>
+  <predicate guid="80ff75d8-e648-11da-90a0-f358fdc0051b">
+    <object statement-guid="f988026f-880f-11ec-b8d4-fba54fb82635" type="literal">Save the editet text as SHA-1 hash code. </object>
+  </predicate>
+  <predicate guid="cd91412a-23a7-11e9-b605-e16c56b16a1a">
+    <object statement-guid="f988026d-880f-11ec-b8d4-fba54fb82635" type="resource" guid="2d5c5b96-f91f-11d9-bb45-5fabdff7c7da" />
+    <object statement-guid="f988026e-880f-11ec-b8d4-fba54fb82635" type="resource" guid="cf068f50-0785-11db-af79-437b1ec5a51d" />
+  </predicate>
+  <predicate guid="b19863c0-23a9-11e9-b605-e16c56b16a1a">
+    <object statement-guid="f988026c-880f-11ec-b8d4-fba54fb82635" type="resource" guid="708af23a-23a9-11e9-b605-e16c56b16a1a" />
+  </predicate>
+</resource>
+
