@@ -26,6 +26,7 @@ public class GenericPackage {
   public static final Resource Composition_testDefaultParser = new Resource("197ccc8f-7cfa-11ec-92b0-e9391c25f75e");
   public static final Resource Composition_testMarkdownParser = new Resource("29276ad4-7cfa-11ec-92b0-e9391c25f75e");
   public static final Resource Composition_testCsvParser = new Resource("295c0f78-7cfa-11ec-92b0-e9391c25f75e");
+  public static final Resource Composition_password = new Resource("eadaa571-880e-11ec-b8d4-fba54fb82635");
   
   /* Begin Protected Region [[user]] */
   
@@ -46,4 +47,4 @@ public class GenericPackage {
   }
   
 }
-/* Actifsource ID=[c1a07b92-fc09-11e0-b756-0dc1d96a76cb,ch.actifsource.example.editortype.generic,YmvkZW08Tkt3Kf0NWxvv++Zurqs=] */
+/* Actifsource ID=[c1a07b92-fc09-11e0-b756-0dc1d96a76cb,ch.actifsource.example.editortype.generic,0NmYApULn/Ypl3klnXaAgC3LO/o=] */

@@ -22,6 +22,8 @@ public interface IComposition extends ch.actifsource.core.javamodel.INamedResour
   
   public java.lang.String selectScopeFileSelector();
   
+  public java.lang.String selectPassword();
+  
   public java.lang.String selectTestDefaultParser();
   
   public java.lang.String selectTestSyntaxHighlightingParser();
@@ -38,4 +40,4 @@ public interface IComposition extends ch.actifsource.core.javamodel.INamedResour
   
 }
 
-/* Actifsource ID=[3ca9f967-db37-11de-82b8-17be2e034a3b,53103312-9908-11ea-8568-8df113ebd62f,O0m1youJvo857hkW6DMXBWvZs0E=] */
+/* Actifsource ID=[3ca9f967-db37-11de-82b8-17be2e034a3b,53103312-9908-11ea-8568-8df113ebd62f,l6nxRHJZW58hHURiqRbnQc3Cf1I=] */

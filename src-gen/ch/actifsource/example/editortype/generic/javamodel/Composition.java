@@ -94,6 +94,15 @@ public class Composition extends DynamicResource implements IComposition {
   }
 
   @Override
+  public java.lang.String selectPassword() {
+    return _getSingleAttribute(java.lang.String.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_password);
+  }
+    
+  public void setPassword(java.lang.String password) {
+     _setSingleAttribute(ch.actifsource.example.editortype.generic.GenericPackage.Composition_password, password);
+  }
+
+  @Override
   public java.lang.String selectScopeFileSelector() {
     return _getSingleAttribute(java.lang.String.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_scopeFileSelector);
   }
@@ -200,6 +209,7 @@ public class Composition extends DynamicResource implements IComposition {
     _acceptSingleAttribute(java.lang.String.class, ch.actifsource.core.CorePackage.Commentable_comment, visitor);
     _acceptSingleAttribute(java.util.Date.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_dateTime, visitor);
     _acceptSingleAttribute(java.lang.String.class, ch.actifsource.core.CorePackage.NamedResource_name, visitor);
+    _acceptSingleAttribute(java.lang.String.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_password, visitor);
     _acceptSingleAttribute(java.lang.String.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_scopeFileSelector, visitor);
     _acceptSingleAttribute(java.lang.String.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_testCsvParser, visitor);
     _acceptSingleAttribute(java.lang.String.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_testDefaultParser, visitor);
@@ -226,4 +236,4 @@ public class Composition extends DynamicResource implements IComposition {
   }
   
 }
-/* Actifsource ID=[4d723cb5-db37-11de-82b8-17be2e034a3b,53103312-9908-11ea-8568-8df113ebd62f,soUJTYPimklv7/zmwO9PRArkE+Q=] */
+/* Actifsource ID=[4d723cb5-db37-11de-82b8-17be2e034a3b,53103312-9908-11ea-8568-8df113ebd62f,pKsSo141jHQnJyIknO8f/wgZv1U=] */
