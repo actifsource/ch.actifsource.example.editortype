@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource format="5.6.0" guid="4f49f4fb-43e2-11ed-bc1e-a3a444c7b7ac">
+  <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="4f4a1c0d-43e2-11ed-bc1e-a3a444c7b7ac" type="resource" guid="2576b879-f91f-11d9-bb45-5fabdff7c7da" />
+  </predicate>
+  <predicate guid="32d2854d-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="4f4adf5f-43e2-11ed-bc1e-a3a444c7b7ac" type="resource" guid="53103312-9908-11ea-8568-8df113ebd62f" />
+  </predicate>
+  <predicate guid="33fc8660-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="4f4a913e-43e2-11ed-bc1e-a3a444c7b7ac" type="literal">Deprecated </object>
+  </predicate>
+</resource>
+
