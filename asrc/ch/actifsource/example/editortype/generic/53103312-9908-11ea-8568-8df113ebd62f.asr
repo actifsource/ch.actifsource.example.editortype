@@ -12,6 +12,7 @@
     <resource statement-guid="531034a7-9908-11ea-8568-8df113ebd62f" type="resource" guid="5310331c-9908-11ea-8568-8df113ebd62f" />
     <resource statement-guid="bd7ff91e-9908-11ea-8568-8df113ebd62f" type="resource" guid="53103336-9908-11ea-8568-8df113ebd62f" />
     <resource statement-guid="eadb41b4-880e-11ec-b8d4-fba54fb82635" type="resource" guid="eadaa571-880e-11ec-b8d4-fba54fb82635" />
+    <resource statement-guid="6fca409f-43e9-11ed-82d7-015d2fff3ab6" type="resource" guid="6fc92f2a-43e9-11ed-82d7-015d2fff3ab6" />
     <resource statement-guid="197d1ab4-7cfa-11ec-92b0-e9391c25f75e" type="resource" guid="197ccc8f-7cfa-11ec-92b0-e9391c25f75e" />
     <resource statement-guid="03113407-7cfa-11ec-92b0-e9391c25f75e" type="resource" guid="031070b2-7cfa-11ec-92b0-e9391c25f75e" />
     <resource statement-guid="29280719-7cfa-11ec-92b0-e9391c25f75e" type="resource" guid="29276ad4-7cfa-11ec-92b0-e9391c25f75e" />
@@ -203,10 +204,26 @@
           <object statement-guid="ee1fbdad-880e-11ec-b8d4-fba54fb82635" type="resource" guid="2d5c5b96-f91f-11d9-bb45-5fabdff7c7da" />
         </predicate>
         <predicate guid="33fc8660-f91f-11d9-bb45-5fabdff7c7da">
-          <object statement-guid="eb541b44-880e-11ec-b8d4-fba54fb82635" type="literal">password</object>
+          <object statement-guid="eb541b44-880e-11ec-b8d4-fba54fb82635" type="literal">ownPassword</object>
         </predicate>
         <predicate guid="ec497726-82e5-11da-bec9-79935dcc853f">
           <object statement-guid="eade7605-880e-11ec-b8d4-fba54fb82635" type="resource" guid="ec497722-82e5-11da-bec9-79935dcc853f" />
+        </predicate>
+      </resource>
+    </object>
+    <object statement-guid="6fca409f-43e9-11ed-82d7-015d2fff3ab6">
+      <resource guid="6fc92f2a-43e9-11ed-82d7-015d2fff3ab6">
+        <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
+          <object statement-guid="6fc92f2b-43e9-11ed-82d7-015d2fff3ab6" type="resource" guid="2936588e-f91f-11d9-bb45-5fabdff7c7da" />
+        </predicate>
+        <predicate guid="3262fa9c-f91f-11d9-bb45-5fabdff7c7da">
+          <object statement-guid="6fc92f2c-43e9-11ed-82d7-015d2fff3ab6" type="resource" guid="2d5c5b96-f91f-11d9-bb45-5fabdff7c7da" />
+        </predicate>
+        <predicate guid="33fc8660-f91f-11d9-bb45-5fabdff7c7da">
+          <object statement-guid="6fc92f2d-43e9-11ed-82d7-015d2fff3ab6" type="literal">password</object>
+        </predicate>
+        <predicate guid="ec497726-82e5-11da-bec9-79935dcc853f">
+          <object statement-guid="6fc92f2e-43e9-11ed-82d7-015d2fff3ab6" type="resource" guid="ec497722-82e5-11da-bec9-79935dcc853f" />
         </predicate>
       </resource>
     </object>

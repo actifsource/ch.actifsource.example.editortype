@@ -141,6 +141,9 @@ config4,config5,config6
         <predicate guid="eadaa571-880e-11ec-b8d4-fba54fb82635">
           <object statement-guid="4cc2e21b-880f-11ec-b8d4-fba54fb82635" type="literal">4f8e957e78a116211850f56d933d426776f4dee0</object>
         </predicate>
+        <predicate guid="6fc92f2a-43e9-11ed-82d7-015d2fff3ab6">
+          <object statement-guid="8bd0046d-43e9-11ed-82d7-015d2fff3ab6" type="literal">4f8e957e78a116211850f56d933d426776f4dee0</object>
+        </predicate>
       </resource>
     </object>
     <object statement-guid="5310340b-9908-11ea-8568-8df113ebd62f">
@@ -150,6 +153,9 @@ config4,config5,config6
         </predicate>
         <predicate guid="33fc8660-f91f-11d9-bb45-5fabdff7c7da">
           <object statement-guid="53103407-9908-11ea-8568-8df113ebd62f" type="literal">Composition_2</object>
+        </predicate>
+        <predicate guid="6fc92f2a-43e9-11ed-82d7-015d2fff3ab6">
+          <object statement-guid="13fc3f46-43ea-11ed-82d7-015d2fff3ab6" type="literal">363efd2f2fa18e71118972ccb6afe2f2aeba6e15</object>
         </predicate>
       </resource>
     </object>
