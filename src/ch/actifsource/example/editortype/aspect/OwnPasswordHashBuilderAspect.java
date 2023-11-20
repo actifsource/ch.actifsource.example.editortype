@@ -30,7 +30,7 @@ public class OwnPasswordHashBuilderAspect extends AbstractDynamicControlBuilderA
   protected IChild internalBuildDynamicChildForLine(IDynamicRootBuilder builder, IDynamicStatementElementTextContainer line, Statement statement) {
     IContentAssistFactory<String> factory = new CustomTextContentAssistFactory(builder);
     DummyEditorModel editorModel = new DummyEditorModel(builder.getContext(), statement);
-    CustomText customText = new CustomText(builder.getContext(), line, editorModel, EditorSelectorUtil.createDefaultTextStyleInitialConfig(builder), factory) {
+    CustomText customText = new CustomText(builder.getContext(), line, editorModel, EditorSelectorUtil.createDefaultTextStyleInitialConfig(builder, statement), factory) {
       
       @Override
       protected String converToModel(String str) {
