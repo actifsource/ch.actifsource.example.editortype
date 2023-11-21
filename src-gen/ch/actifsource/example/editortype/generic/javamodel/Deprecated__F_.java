@@ -4,28 +4,28 @@ import ch.actifsource.util.collection.IMultiMapOrdered;
 import ch.actifsource.core.dynamic.*;
 
 @edu.umd.cs.findbugs.annotations.SuppressWarnings("EQ_DOESNT_OVERRIDE_EQUALS")
-public class Composition extends DynamicResource implements IComposition {
+public class Deprecated__F_ extends DynamicResource implements IDeprecated__F_ {
 
-  public static final ch.actifsource.core.dynamic.IDynamicResource.IFactory<IComposition> FACTORY = new ch.actifsource.core.dynamic.IDynamicResource.IFactory<IComposition>() {
+  public static final ch.actifsource.core.dynamic.IDynamicResource.IFactory<IDeprecated__F_> FACTORY = new ch.actifsource.core.dynamic.IDynamicResource.IFactory<IDeprecated__F_>() {
     
     @Override
-    public IComposition create() {
-      return new Composition();
+    public IDeprecated__F_ create() {
+      return new Deprecated__F_();
     }
     
     @Override
-    public IComposition create(IDynamicResourceRepository resourceRepository, ch.actifsource.core.Resource resource) {
-      return new Composition(resourceRepository, resource);
+    public IDeprecated__F_ create(IDynamicResourceRepository resourceRepository, ch.actifsource.core.Resource resource) {
+      return new Deprecated__F_(resourceRepository, resource);
     }
   
   };
 
-  public Composition() {
-    super(IComposition.TYPE_ID);
+  public Deprecated__F_() {
+    super(IDeprecated__F_.TYPE_ID);
   }
   
-  public Composition(IDynamicResourceRepository resourceRepository, ch.actifsource.core.Resource resource) {
-    super(resourceRepository, resource, IComposition.TYPE_ID);
+  public Deprecated__F_(IDynamicResourceRepository resourceRepository, ch.actifsource.core.Resource resource) {
+    super(resourceRepository, resource, IDeprecated__F_.TYPE_ID);
   }
 
   // attributes
@@ -172,7 +172,7 @@ public class Composition extends DynamicResource implements IComposition {
     return _getList(ch.actifsource.example.editortype.generic.javamodel.IComposition.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_associationComboBox);
   }
 
-  public Composition setAssociationComboBox(java.util.List<? extends ch.actifsource.example.editortype.generic.javamodel.IComposition> associationComboBox) {
+  public Deprecated__F_ setAssociationComboBox(java.util.List<? extends ch.actifsource.example.editortype.generic.javamodel.IComposition> associationComboBox) {
     _setList(ch.actifsource.example.editortype.generic.GenericPackage.Composition_associationComboBox, associationComboBox);
     return this;
   }
@@ -182,7 +182,7 @@ public class Composition extends DynamicResource implements IComposition {
     return _getList(ch.actifsource.example.editortype.generic.javamodel.IComposition.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_associationRadioButton);
   }
 
-  public Composition setAssociationRadioButton(java.util.List<? extends ch.actifsource.example.editortype.generic.javamodel.IComposition> associationRadioButton) {
+  public Deprecated__F_ setAssociationRadioButton(java.util.List<? extends ch.actifsource.example.editortype.generic.javamodel.IComposition> associationRadioButton) {
     _setList(ch.actifsource.example.editortype.generic.GenericPackage.Composition_associationRadioButton, associationRadioButton);
     return this;
   }
@@ -192,7 +192,7 @@ public class Composition extends DynamicResource implements IComposition {
     return _getList(ch.actifsource.example.editortype.generic.javamodel.ITestEnum.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_enumComboBox);
   }
 
-  public Composition setEnumComboBox(java.util.List<? extends ch.actifsource.example.editortype.generic.javamodel.ITestEnum> enumComboBox) {
+  public Deprecated__F_ setEnumComboBox(java.util.List<? extends ch.actifsource.example.editortype.generic.javamodel.ITestEnum> enumComboBox) {
     _setList(ch.actifsource.example.editortype.generic.GenericPackage.Composition_enumComboBox, enumComboBox);
     return this;
   }
@@ -202,7 +202,7 @@ public class Composition extends DynamicResource implements IComposition {
     return _getSingle(ch.actifsource.core.javamodel.IClass.class, ch.actifsource.core.CorePackage.Resource_typeOf);
   }
 
-  public Composition setTypeOf(ch.actifsource.core.javamodel.IClass typeOf) {
+  public Deprecated__F_ setTypeOf(ch.actifsource.core.javamodel.IClass typeOf) {
     _setSingle(ch.actifsource.core.CorePackage.Resource_typeOf, typeOf);
     return this;
   }
@@ -233,17 +233,5 @@ public class Composition extends DynamicResource implements IComposition {
     _acceptSingle(ch.actifsource.core.javamodel.IClass.class, ch.actifsource.core.CorePackage.Resource_typeOf, visitor);
   }
 
-  public static java.util.List<ch.actifsource.example.editortype.generic.javamodel.IComposition> selectToMeEnumComboBox(ch.actifsource.example.editortype.generic.javamodel.ITestEnum object) {
-    return _getToMeList(object.getRepository(), ch.actifsource.example.editortype.generic.javamodel.IComposition.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_enumComboBox, object.getResource());
-  }
-  
-  public static java.util.List<ch.actifsource.example.editortype.generic.javamodel.IComposition> selectToMeAssociationComboBox(ch.actifsource.example.editortype.generic.javamodel.IComposition object) {
-    return _getToMeList(object.getRepository(), ch.actifsource.example.editortype.generic.javamodel.IComposition.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_associationComboBox, object.getResource());
-  }
-  
-  public static java.util.List<ch.actifsource.example.editortype.generic.javamodel.IComposition> selectToMeAssociationRadioButton(ch.actifsource.example.editortype.generic.javamodel.IComposition object) {
-    return _getToMeList(object.getRepository(), ch.actifsource.example.editortype.generic.javamodel.IComposition.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_associationRadioButton, object.getResource());
-  }
-  
 }
-/* Actifsource ID=[4d723cb5-db37-11de-82b8-17be2e034a3b,53103312-9908-11ea-8568-8df113ebd62f,NhNZNHIlyKoC8Q0io7Ba+yJfP+A=] */
+/* Actifsource ID=[4d723cb5-db37-11de-82b8-17be2e034a3b,4f49f4fb-43e2-11ed-bc1e-a3a444c7b7ac,CTXmaPQMOY6G+Ae3DtyoyaXjHQ4=] */
