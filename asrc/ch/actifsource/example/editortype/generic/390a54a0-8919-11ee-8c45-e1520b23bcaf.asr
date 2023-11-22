@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource format="5.6.0" guid="390a54a0-8919-11ee-8c45-e1520b23bcaf">
+  <owns predicate="339930af-f91f-11d9-bb45-5fabdff7c7da">
+    <resource statement-guid="4220d714-8919-11ee-8c45-e1520b23bcaf" type="resource" guid="4220b000-8919-11ee-8c45-e1520b23bcaf" />
+  </owns>
+  <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="390a7bb2-8919-11ee-8c45-e1520b23bcaf" type="resource" guid="2576b879-f91f-11d9-bb45-5fabdff7c7da" />
+  </predicate>
+  <predicate guid="32d2854d-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="390ac9d4-8919-11ee-8c45-e1520b23bcaf" type="resource" guid="270595db-f91f-11d9-bb45-5fabdff7c7da" />
+  </predicate>
+  <predicate guid="339930af-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="4220d714-8919-11ee-8c45-e1520b23bcaf">
+      <resource guid="4220b000-8919-11ee-8c45-e1520b23bcaf">
+        <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
+          <object statement-guid="4220b002-8919-11ee-8c45-e1520b23bcaf" type="resource" guid="bdde7d1f-c9d5-11e5-9831-156e07955359" />
+        </predicate>
+        <predicate guid="33fc8660-f91f-11d9-bb45-5fabdff7c7da">
+          <object statement-guid="4220d713-8919-11ee-8c45-e1520b23bcaf" type="literal">subSubElement</object>
+        </predicate>
+        <predicate guid="ec497726-82e5-11da-bec9-79935dcc853f">
+          <object statement-guid="4220fe25-8919-11ee-8c45-e1520b23bcaf" type="resource" guid="ec497723-82e5-11da-bec9-79935dcc853f" />
+        </predicate>
+        <predicate guid="ec497727-82e5-11da-bec9-79935dcc853f">
+          <object statement-guid="4220fe26-8919-11ee-8c45-e1520b23bcaf" type="resource" guid="ec497724-82e5-11da-bec9-79935dcc853f" />
+        </predicate>
+        <predicate guid="5ba8fb1b-c0c7-11df-bc15-5b8c4150127a">
+          <object statement-guid="42212537-8919-11ee-8c45-e1520b23bcaf" type="resource" guid="3cfdfd5b-8919-11ee-8c45-e1520b23bcaf" />
+        </predicate>
+      </resource>
+    </object>
+  </predicate>
+  <predicate guid="33fc8660-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="390aa2c3-8919-11ee-8c45-e1520b23bcaf" type="literal">SubElement</object>
+  </predicate>
+</resource>
+
