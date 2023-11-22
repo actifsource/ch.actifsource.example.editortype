@@ -40,6 +40,12 @@ public interface IComposition extends ch.actifsource.core.javamodel.INamedResour
   
   public java.util.List<? extends ch.actifsource.example.editortype.generic.javamodel.IComposition> selectAssociationRadioButton();
   
+  public java.util.List<? extends ch.actifsource.example.editortype.generic.javamodel.IDecorationTarget> selectDecorationTarget();
+  
+  public IMultiMapOrdered<ch.actifsource.core.Resource, ? extends ch.actifsource.example.editortype.generic.javamodel.IDecorationTarget> selectHideDecorationOnEmptyLine();
+  
+  public IMultiMapOrdered<ch.actifsource.core.Resource, ? extends ch.actifsource.example.editortype.generic.javamodel.IDecorationTarget> selectShowDecorationOnEmptyLine();
+  
 }
 
-/* Actifsource ID=[3ca9f967-db37-11de-82b8-17be2e034a3b,53103312-9908-11ea-8568-8df113ebd62f,g80HeqiBm0rnYkSfKTW2zEW7DiA=] */
+/* Actifsource ID=[3ca9f967-db37-11de-82b8-17be2e034a3b,53103312-9908-11ea-8568-8df113ebd62f,BWsXPAUfs/quouGXierM+emQF70=] */

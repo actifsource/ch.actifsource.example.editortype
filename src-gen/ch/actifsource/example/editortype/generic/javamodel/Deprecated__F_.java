@@ -188,12 +188,42 @@ public class Deprecated__F_ extends DynamicResource implements IDeprecated__F_ {
   }
     
   @Override
+  public java.util.List<? extends ch.actifsource.example.editortype.generic.javamodel.IDecorationTarget> selectDecorationTarget() {
+    return _getList(ch.actifsource.example.editortype.generic.javamodel.IDecorationTarget.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_decorationTarget);
+  }
+
+  public Deprecated__F_ setDecorationTarget(java.util.List<? extends ch.actifsource.example.editortype.generic.javamodel.IDecorationTarget> decorationTarget) {
+    _setList(ch.actifsource.example.editortype.generic.GenericPackage.Composition_decorationTarget, decorationTarget);
+    return this;
+  }
+    
+  @Override
   public java.util.List<? extends ch.actifsource.example.editortype.generic.javamodel.ITestEnum> selectEnumComboBox() {
     return _getList(ch.actifsource.example.editortype.generic.javamodel.ITestEnum.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_enumComboBox);
   }
 
   public Deprecated__F_ setEnumComboBox(java.util.List<? extends ch.actifsource.example.editortype.generic.javamodel.ITestEnum> enumComboBox) {
     _setList(ch.actifsource.example.editortype.generic.GenericPackage.Composition_enumComboBox, enumComboBox);
+    return this;
+  }
+    
+  @Override
+  public IMultiMapOrdered<ch.actifsource.core.Resource, ? extends ch.actifsource.example.editortype.generic.javamodel.IDecorationTarget> selectHideDecorationOnEmptyLine() {
+    return _getMultiMap(ch.actifsource.example.editortype.generic.javamodel.IDecorationTarget.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_hideDecorationOnEmptyLine);
+  }
+
+  public Deprecated__F_ setHideDecorationOnEmptyLine(IMultiMapOrdered<ch.actifsource.core.Resource, ? extends ch.actifsource.example.editortype.generic.javamodel.IDecorationTarget> hideDecorationOnEmptyLine) {
+    _setMultiMap(ch.actifsource.example.editortype.generic.GenericPackage.Composition_hideDecorationOnEmptyLine, hideDecorationOnEmptyLine);
+    return this;
+  }
+    
+  @Override
+  public IMultiMapOrdered<ch.actifsource.core.Resource, ? extends ch.actifsource.example.editortype.generic.javamodel.IDecorationTarget> selectShowDecorationOnEmptyLine() {
+    return _getMultiMap(ch.actifsource.example.editortype.generic.javamodel.IDecorationTarget.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_showDecorationOnEmptyLine);
+  }
+
+  public Deprecated__F_ setShowDecorationOnEmptyLine(IMultiMapOrdered<ch.actifsource.core.Resource, ? extends ch.actifsource.example.editortype.generic.javamodel.IDecorationTarget> showDecorationOnEmptyLine) {
+    _setMultiMap(ch.actifsource.example.editortype.generic.GenericPackage.Composition_showDecorationOnEmptyLine, showDecorationOnEmptyLine);
     return this;
   }
     
@@ -229,9 +259,12 @@ public class Deprecated__F_ extends DynamicResource implements IDeprecated__F_ {
     // relations
     _acceptList(ch.actifsource.example.editortype.generic.javamodel.IComposition.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_associationComboBox, visitor);
     _acceptList(ch.actifsource.example.editortype.generic.javamodel.IComposition.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_associationRadioButton, visitor);
+    _acceptList(ch.actifsource.example.editortype.generic.javamodel.IDecorationTarget.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_decorationTarget, visitor);
     _acceptList(ch.actifsource.example.editortype.generic.javamodel.ITestEnum.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_enumComboBox, visitor);
+    _acceptMultiMap(ch.actifsource.example.editortype.generic.javamodel.IDecorationTarget.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_hideDecorationOnEmptyLine, visitor);
+    _acceptMultiMap(ch.actifsource.example.editortype.generic.javamodel.IDecorationTarget.class, ch.actifsource.example.editortype.generic.GenericPackage.Composition_showDecorationOnEmptyLine, visitor);
     _acceptSingle(ch.actifsource.core.javamodel.IClass.class, ch.actifsource.core.CorePackage.Resource_typeOf, visitor);
   }
 
 }
-/* Actifsource ID=[4d723cb5-db37-11de-82b8-17be2e034a3b,4f49f4fb-43e2-11ed-bc1e-a3a444c7b7ac,CTXmaPQMOY6G+Ae3DtyoyaXjHQ4=] */
+/* Actifsource ID=[4d723cb5-db37-11de-82b8-17be2e034a3b,4f49f4fb-43e2-11ed-bc1e-a3a444c7b7ac,IRh7W7pKsw2+/+OjdbxbGcG1SXE=] */

@@ -42,6 +42,16 @@ public class Root extends DynamicResource implements IRoot {
   // relations
   
   @Override
+  public java.util.List<? extends ch.actifsource.example.editortype.generic.javamodel.ISubElement> selectSubElement() {
+    return _getList(ch.actifsource.example.editortype.generic.javamodel.ISubElement.class, ch.actifsource.example.editortype.generic.GenericPackage.Root_subElement);
+  }
+
+  public Root setSubElement(java.util.List<? extends ch.actifsource.example.editortype.generic.javamodel.ISubElement> subElement) {
+    _setList(ch.actifsource.example.editortype.generic.GenericPackage.Root_subElement, subElement);
+    return this;
+  }
+    
+  @Override
   public java.util.List<? extends ch.actifsource.example.editortype.generic.javamodel.IComposition> selectTestAggregation() {
     return _getList(ch.actifsource.example.editortype.generic.javamodel.IComposition.class, ch.actifsource.example.editortype.generic.GenericPackage.Root_testAggregation);
   }
@@ -77,6 +87,7 @@ public class Root extends DynamicResource implements IRoot {
     // attributes
     _acceptSingleAttribute(java.lang.String.class, ch.actifsource.core.CorePackage.NamedResource_name, visitor);
     // relations
+    _acceptList(ch.actifsource.example.editortype.generic.javamodel.ISubElement.class, ch.actifsource.example.editortype.generic.GenericPackage.Root_subElement, visitor);
     _acceptList(ch.actifsource.example.editortype.generic.javamodel.IComposition.class, ch.actifsource.example.editortype.generic.GenericPackage.Root_testAggregation, visitor);
     _acceptList(ch.actifsource.example.editortype.generic.javamodel.IComposition.class, ch.actifsource.example.editortype.generic.GenericPackage.Root_testComposition, visitor);
     _acceptSingle(ch.actifsource.core.javamodel.IClass.class, ch.actifsource.core.CorePackage.Resource_typeOf, visitor);
@@ -92,5 +103,9 @@ public class Root extends DynamicResource implements IRoot {
     return _getToMeSingle(object.getRepository(), ch.actifsource.example.editortype.generic.javamodel.IRoot.class, ch.actifsource.example.editortype.generic.GenericPackage.Root_testAggregation, object.getResource());
   }
   
+  public static ch.actifsource.example.editortype.generic.javamodel.IRoot selectToMeSubElement(ch.actifsource.example.editortype.generic.javamodel.ISubElement object) {
+    return _getToMeSingle(object.getRepository(), ch.actifsource.example.editortype.generic.javamodel.IRoot.class, ch.actifsource.example.editortype.generic.GenericPackage.Root_subElement, object.getResource());
+  }
+  
 }
-/* Actifsource ID=[4d723cb5-db37-11de-82b8-17be2e034a3b,5310332c-9908-11ea-8568-8df113ebd62f,A3tF6HDvoVIKCPXi/xQoVEkAnG4=] */
+/* Actifsource ID=[4d723cb5-db37-11de-82b8-17be2e034a3b,5310332c-9908-11ea-8568-8df113ebd62f,DgYw+rSpx+naZi1lS9nSEwKDlfY=] */
